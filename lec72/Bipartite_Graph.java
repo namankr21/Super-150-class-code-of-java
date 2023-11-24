@@ -25,7 +25,10 @@ public class Bipartite_Graph {
             {
                 continue;
             }
+     
 
+
+            
             q.add(new BipartitePair(i,0));
 
             while (!q.isEmpty()) {
