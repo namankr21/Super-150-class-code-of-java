@@ -48,6 +48,11 @@ public class Kruskal_Algo {
         return ll;
     }
 
+    public String toString(EdgePair e)
+    {
+        return e.e1 + " to " + e.e2 + " @ " + e.cost;
+    }
+
     public void Kruskal()
     {
         List<EdgePair> ll = getAllEdge();
