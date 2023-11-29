@@ -45,11 +45,8 @@ public class DisJoint_Set_Union {
             ren2.rank++;
         } else if (ren1.rank > ren2.rank) {
             ren2.parent = ren1;
-            // ren2.rank++;
         } else {
             ren1.parent = ren2;
-            // ren1.rank++;
         }
-
     }
 }
