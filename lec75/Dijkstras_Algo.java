@@ -97,7 +97,7 @@ public class Dijkstras_Algo {
 		graph.AddEdge(5, 6, 4);
 		graph.AddEdge(7, 5, 2);
 		graph.AddEdge(6, 7, 3);
-
+        
         graph.Dijkstra();
 
 
