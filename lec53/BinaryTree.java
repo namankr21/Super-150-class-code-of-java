@@ -1,9 +1,9 @@
 /*     Traversals
 1. Pre-order 
-root - left - right
+    root - left - right
 
 2. Post-order
-left - right - root
+    left - right - root
 
 3. In-order
     left - root - right    
