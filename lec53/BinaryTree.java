@@ -10,8 +10,6 @@ left - right - root
     
 */
 
-
-    
 import java.util.*;
 public class BinaryTree {
 
