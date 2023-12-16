@@ -1,7 +1,5 @@
 package lec70;
-
 import java.util.HashSet;
-
 public class myGraph {
     public static void main(String[] args) {
         Graph graph = new Graph(7);
