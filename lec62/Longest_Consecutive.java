@@ -1,5 +1,7 @@
-import java.util.HashMap;
+package lec62;
 
+import java.util.HashMap;
+// https://leetcode.com/problems/longest-consecutive-sequence/description/
 public class Longest_Consecutive {
     public static void main(String[] args) {
         int[]arr = {5,3,2,7,8,10,11,20,13,1,15,4,16,21};

@@ -9,22 +9,18 @@ public class SearchA2DMatrixII {
                             { 18, 21, 23, 26, 30 } };
         int target = 17;
         System.out.println(search(matrix, target));
-
     }
 
     public static boolean search(int[][] arr, int item) {
         int row = 0;
         int col = arr[0].length - 1;
         while (row < arr.length && col >= 0) {
-            if (arr[row][col] == item) {
+            if (arr[row][col] == item){
                 return true;
             } 
-            else if (arr[row][col] > item) 
-            {
+            else if (arr[row][col] > item) {
                 col--;
-            } 
-            else 
-            {
+            } else {
                 row++;
             }
         }

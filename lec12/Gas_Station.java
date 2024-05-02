@@ -12,7 +12,7 @@ public class Gas_Station {
         int curr = 0;
         int si = 0;
         for (int i = 0; i < gas.length; i++) {
-            tc = tc + gas[i] - cost[i];
+            tc   += gas[i] - cost[i];
             curr += gas[i] - cost[i];
             if (curr < 0) {
                 curr = 0;
@@ -22,6 +22,5 @@ public class Gas_Station {
         if (tc < 0)
             return -1;
         return si;
-
     }
 }

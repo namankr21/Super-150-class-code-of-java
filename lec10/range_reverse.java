@@ -23,7 +23,6 @@ public class range_reverse {
         }
         for (int x : arr) {
             System.out.print(x + "  ");
-
         }
     }
 }

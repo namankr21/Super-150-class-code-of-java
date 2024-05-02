@@ -39,7 +39,6 @@ public class Binary_search {
             }
         }
         return -1;
-
     }
 
     public static void searchinv(int[]arr,int item,int mid) {
